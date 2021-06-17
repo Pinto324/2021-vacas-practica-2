@@ -1,6 +1,5 @@
 package src.tienda;
-
-import java.util.*;
+import java.util.Scanner;
 
 public class IngresoDatos {
     static Scanner scanner = new Scanner(System.in);
@@ -34,5 +33,4 @@ public class IngresoDatos {
         String res = scanner.nextLine();
         return res;
     }
-    
 }

@@ -1,7 +1,6 @@
+
 package src.clientes;
-
 import src.tienda.*;
-
 public class VectorClientes {
     private Cliente[] clientes = new Cliente[50];
     private int siguienteCodigo;
@@ -65,8 +64,5 @@ public class VectorClientes {
             }
         }
 
-    }
-
-
-    
+    }    
 }

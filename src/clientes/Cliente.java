@@ -1,8 +1,5 @@
 package src.clientes;
 
-/**
- * Cliente
- */
 public class Cliente {
     private int id;
     private String nombre;
@@ -47,6 +44,5 @@ public class Cliente {
     public String getInformacion(){
         String resultado = "Id: "+id+" Nombre del cliente: " + nombre;
         return resultado;
-    }
-    
+    }    
 }
